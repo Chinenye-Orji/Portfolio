@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinenye J. Orji | Data Analyst Portfolio</title>
+    <style>
+        /* Define a custom, modern color palette */
+        :root {
+            --primary-color: #00bcd4; /* Cyan/Teal - Modern and Analytical */
+            --secondary-color: #343a40; /* Dark text */
+            --light-bg: #f5fafd; /* Very light blue background */
+            --white-bg: #ffffff;
+            --accent-green: #28a745;
+        }
+
+        /* Basic Reset and Font */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--secondary-color);
+            line-height: 1.6;
+        }
+
+        /* Container for Centering */
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: var(--white-bg);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+
+        /* Headings and Typography */
+        h1 {
+            color: var(--secondary-color);
+            margin-bottom: 0;
+            font-size: 2.8em;
+            text-align: center;
+        }
+        .subtitle {
+            font-size: 1.3em;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            display: block;
+            text-align: center;
+            font-weight: 500;
+        }
+        h2 {
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 8px;
+            margin-top: 40px;
+            color: var(--primary-color);
+            font-size: 2em;
+            font-weight: 700;
+        }
+        h3 {
+            color: var(--secondary-color);
+            margin-top: 20px;
+            font-size: 1.4em;
+            font-weight: 600;
+        }
+
+        /* Profile Picture Style */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 25px auto;
+            object-fit: cover;
+            border: 5px solid var(--primary-color); /* Fancy border */
+        }
+
+        /* Contact Section */
+        .contact-info {
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            font-size: 0.95em;
+        }
+        .contact-item {
+            padding: 5px 10px;
+        }
+        .contact-item a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Experience and Project Styling */
+        .experience-item, .project-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-left: 5px solid var(--primary-color);
+            background-color: var(--white-bg);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            border-radius: 6px;
+        }
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+
+        /* Skills Table */
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .skills-table th, .skills-table td {
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            text-align: left;
+        }
+        .skills-table th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: bold;
+        }
+        .skills-table td ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        /* Project Button */
+        .project-link {
+            display: inline-block;
+            background-color: var(--accent-green);
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+            font-weight: 600;
+        }
+        .project-link:hover {
+            background-color: #1e7e34;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2.2em;
+            }
+            .contact-info {
+                display: block;
+                padding: 10px;
+            }
+            .skills-table th, .skills-table td {
+                display: block;
+                width: 100%;
+            }
+            .skills-table thead {
+                display: none;
+            }
+            .skills-table tr {
+                margin-bottom: 20px;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <img src="assets/profile.jpg" alt="Chinenye J. Orji Profile Picture" class="profile-img">
+    <h1>Chinenye J. Orji</h1>
+    <span class="subtitle">Data Analyst | ICT Professional | Statistical Analyst</span>
+
+    <h2>🔗 Contact & Links</h2>
+    <div class="contact-info">
+        <div class="contact-item"><strong>Email:</strong> <a href="mailto:jenniferudenweze@gmail.com">jenniferudenweze@gmail.com</a></div>
+        <div class="contact-item"><strong>Phone:</strong> +61 414 972 072</div>
+        <div class="contact-item"><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/chinenye-jennifer-orji-270283399" target="_blank">View Profile</a></div>
+        <div class="contact-item"><strong>Location:</strong> Coomera, 4209, Australia</div>
+    </div>
+
+    <h2>💡 About Me</h2>
+    <p>
+        I am an experienced **Data Analyst** and **ICT professional** with expertise in statistical analysis, data visualization, and database management. I have a proven track record in transforming complex datasets into actionable insights for government and educational institutions. I am currently pursuing a Master's degree at the University of the Sunshine Coast, supported by a strong foundation in statistics, computer science, and data-driven decision making.
+    </p>
+
+    <h2>🛠️ Skills & Technologies</h2>
+    <table class="skills-table">
+        <thead>
+            <tr>
+                <th>Technical Skills</th>
+                <th>Professional & Soft Skills</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <h3>Data Analysis & Programming</h3>
+                    <ul>
+                        <li>**Programming Languages:** Python, R, SQL</li>
+                        <li>**Statistical Analysis:** SPSS, R, SAS</li>
+                        <li>**Data Visualization:** Power BI, Tableau, Microsoft Excel</li>
+                        <li>**Database Management:** MySQL, Microsoft Access</li>
+                        <li>**Spreadsheet Analysis:** Advanced Excel (Pivot Tables, VLOOKUP, Macros)</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Collaboration & Systems</h3>
+                    <ul>
+                        <li>Data interpretation and storytelling</li>
+                        <li>Technical documentation and reporting</li>
+                        <li>Cross-functional team collaboration</li>
+                        <li>Stakeholder communication and presentation</li>
+                        <li>Survey design and questionnaire development</li>
+                        <li>Operating Systems: Windows, Linux</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>🏅 Certifications & Professional Development</h2>
+    <ul>
+        <li>**Information Technology Specialist (ITS) Certification - Python**</li>
+        <li>Microsoft Certified Security, Compliance and Identity Fundamentals - 2025</li>
+        <li>Fortinet Certified Fundamentals in Cybersecurity - 2025</li>
+    </ul>
+
+    <h2>💼 Professional Experience</h2>
+
+    <div class="experience-item">
+        <h3>Data Analyst - National Bureau of Statistics</h3>
+        <p><em>Abuja, FCT, Nigeria | 2016 - 2018</em></p>
+        <strong>Key Responsibilities:</strong>
+        <ul>
+            <li>Collected, processed, and analyzed demographic, economic, and social data for state-level reporting.</li>
+            <li>Prepared statistical bulletins, quarterly reports, and annual statistical abstracts for government ministries.</li>
+        </ul>
+        <strong>Key Achievements:</strong>
+        <ul>
+            <li>Developed automated reporting templates that reduced monthly report preparation time by **40%**.</li>
+            <li>Created interactive dashboards for real-time monitoring of state economic indicators.</li>
+        </ul>
+        <p><strong>Technologies Used:</strong> Microsoft Excel, SPSS, SQL, Microsoft Access, Power BI</p>
+    </div>
+
+    <div class="experience-item">
+        <h3>Data Analyst - Nigerian College of Aviation</h3>
+        <p><em>Zaria, Kaduna State, Nigeria | 2015 - 2016</em></p>
+        <strong>Key Responsibilities:</strong>
+        <ul>
+            <li>Analyzed student enrollment data, academic performance metrics, and graduation rates for program evaluation.</li>
+            <li>Maintained student information management systems and updated academic databases.</li>
+        </ul>
+        <strong>Key Achievements:</strong>
+        <ul>
+            <li>Developed a comprehensive student performance tracking system used across **5** academic departments.</li>
+            <li>Reduced data entry errors by **35%** through implementation of validation protocols.</li>
+        </ul>
+        <p><strong>Technologies Used:</strong> Microsoft Excel, Microsoft Access, SPSS</p>
+    </div>
+
+    <h2>🎓 Education</h2>
+    <ul>
+        <li>
+            **Master of Science (M.Sc.) in Information Communication & Technology (ICT)**
+            <br>University of the Sunshine Coast, Queensland, Australia | Expected Completion: 2026
+        </li>
+        <li>
+            **Bachelor of Science (B.Sc.) in Statistics** (Minor: Computer Science)
+            <br>University of Agriculture, Makurdi, Benue State, Nigeria | Graduated: 2014
+        </li>
+    </ul>
+
+    <h2>🚀 Featured Project</h2>
+    <p>A hands-on demonstration of data wrangling, analysis, and visualization skills.</p>
+
+    <div class="project-item">
+        <h3>Sales Dashboard for [Specific Business Goal]</h3>
+        <p>
+            This project involves leveraging **Python** for data cleaning and transformation, followed by developing a dynamic dashboard in a tool like **Power BI** or **Tableau**. The aim is to visualize key performance indicators (KPIs) like revenue, sales territory efficiency, and trend analysis to support executive decision-making.
+        </p>
+        <a href="[PASTE DIRECT LINK TO YOUR SALES DASHBOARD DOCUMENT HERE]" target="_blank" class="project-link">View Sales Dashboard Documentation</a>
+    </div>
+
+</div>
+
+</body>
+</html>
